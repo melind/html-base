@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+html, body, .full-height {
+  height: 100%;
+  margin: 0;
+}
+@font-face {
+    font-family: "roboto";
+    src: url(https://fonts.googleapis.com/css?family=Robotof);
+    }
+body {
+  background-color: #fef8f2;
+  font-family: "roboto";
+}
+header {
+  /*border : 2px solid red;*/
+}
+h1 {
+  color: #3d3e40;
+  font-weight: bold;
+}
+h4 {
+  color: #565765;
+}
+#bas {
+  text-align: center;
+}
+.grid{
+ /*border: 2px solid blue;*/
+ display: flex;
+ flex-direction: column;
+ height: 100%;
+}
+.col {
+  /*border: 3px solid black;*/
+  flex: 1;
+}
+.row {
+  /*border: 2px solid green;*/
+  display: flex;
+  flex-direction: row;
+  flex: 7;
+}
+.p {
+  /*border: 3px solid black;*/
+  flex: 1;
+  }
+.photo1 {
+  width: 280px;
+  height: 250px;
+  margin-left: 310px;
+}
+#lien {
+  margin-left: 410px;
+  color: #5e5157;
+  font-weight: bold;
+}
+.photo2 {
+margin-left: 70px;
+}
+#lien2 {
+  margin-left: 170px;
+  color: #5e5157;
+  font-weight: bold;
+}
+#footer {
+  height: 125px;
+  background-color: #676767;
+  position: static;
+}
+.name {
+  margin-left: 1170px;
+  padding-top: 10px;
+  font-size: 15px;
+  color: #cbcecc;
+}
+.logo {
+  width: 8%;
+}
+.end {
+  /*border: 2px solid white;*/
+  color: #949290;
+  width: 20%;
+  margin-left: 1000px ;
+}
+span {
+  font-size: 20px;
+}
+#end2 {
+  font-size: 15px;
+}

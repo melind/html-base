@@ -1,79 +1,84 @@
 * {
   box-sizing: border-box;
 }
+@font-face {
+    font-family: "AvenirNextBold";
+    src: url(/home/simplon/Téléchargements/avenir-next-bold.ttf);
+    }
 html, body, .full-height {
   height: 100%;
+  margin: 0;
+  padding: ;
+  position: relative;
+  font-family: "AvenirNextBold"
 }
-.grid {
-  /*border: 5px solid blue;*/
-}
-.row {
-  /*border: 5px solid grey;*/
-}
+
 .col {
   /*border: 5px solid red;*/
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  max-height: none;
-
+}
+.m {
+  background-color: #f7f7f7;
+  height: 135%;
+  padding-left: 10px;
+  padding-top: 50px;
+  position: relative;
+  margin-top: 0;
 }
 .logo {
-  display: flex;
   font-size: 25px;
-  font-family: AvenirNextBold;
+  color: #353535;
   cursor: pointer;
-  top: 25px;
-  left: 3ww;
-
+  top: 28px;
+  left: 41px;
+  position: fixed;
 }
-
+.u {
+  padding-left: 325px;
+  margin-top: 150px;
+}
 .h {
   font-size: 130px;
   font-weight: 300;
-  white-space: nowrap;
-  font-family: AvenirNextBold;
-  ;
+  color: #353535;
 }
 .hh {
   margin-top: -100px;
   font-size: 47px;
   font-weight: 300;
-
-  font-family: AvenirNextBold;
-
+  color: #353535;
 }
 .text {
   display: block;
-  margin-top: -30px;
-
-
-}
-.m {
-  background-color: #f7f7f7;
-  height: 100%;
-  padding-left: 10px;
+  color: #6a6a6a;
+  font-family: "RobotoRegular";
+  margin-top: -10px;
 }
 .v {
   background-color: #1f1f1f;;
-  margin-top: -200px;
+  margin-top: -150px;
   height: 100%;
-  padding-left: 100px;
+  padding-left: 325px;
+  padding-top: 150px;
+  position: relative;
 }
 span {
   margin: 0;
   padding: 0;
   border: 0;
   font-size: 70px;
-  vertical-align: baseline;
-
 }
 .blanc {
   color: #fff;
 }
-.logo {
-  position: fixed;
+.i {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 100px;
+  width: 300px;
+  height: 300px;
+  opacity: 0.3;
 }
-.u {
-  padding-left: 100px;
+.footer {
+position: relative;
+height: 40px;
 }
